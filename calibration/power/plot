@@ -1,0 +1,14 @@
+#!/usr/bin/env gnuplot
+
+set terminal pdf enhanced font 'Helvetica,14' size 16cm,12cm
+
+f(x) = a*x+b;
+fit f(x) "data.dat" using 2:1 via a,b
+
+set grid
+set title "Voltage to measured ADC"
+set xlabel "ADC value"
+set ylabel "Voltage [mV]"
+
+plot "data.dat" using 2:1 with points title "data points", \
+	 f(x) with lines title sprintf('linear fit curve mV(x) = %.5f·x%+.5f', a, b)
