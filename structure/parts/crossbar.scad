@@ -1,13 +1,13 @@
-include <../conf/parameters.scad>
+include <../conf.scad>
 
 module crossbar() {
 
 module bar(length,outer,inner) {
 	difference() {
 		cube([outer, outer, length], true);
-		cube([inner, inner, length], true);
+		cube([inner, inner, length+epsilon], true);
 		translate([outer/2,0,0])
-		cube([outer, outer, outer], true);
+		cube([outer, outer+epsilon, outer], true);
 	}
 }
 
@@ -19,6 +19,7 @@ difference() {
 
 	//bar
 	rotate([90,-90,90])
+	color("silver")
 	bar(frame_length, frame_outer, frame_inner);
 
 	//center hole

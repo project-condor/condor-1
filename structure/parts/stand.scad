@@ -1,4 +1,4 @@
-include <../conf/parameters.scad>
+include <../conf.scad>
 
 module stand() {
 
