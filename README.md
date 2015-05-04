@@ -16,7 +16,7 @@ This repository contains files related to the quadcopter model. Checkout the [fu
 ------ | --------
 Controller board [trifle](https://github.com/jodersky/trifle) | ![alpha](https://img.shields.io/badge/progress-alpha-brightgreen.svg)
 Pilot firmware [PX4](https://github.com/jodersky/px4-firmware) (porting forkk | ![wip](https://img.shields.io/badge/progress-wip-orange.svg)  |
-Real-time OS [NuttX](https://github.com/jodersky/nuttx) (porting fork) | ![wip](https://img.shields.io/badge/progress-wip-orange.svg)
+Real-time OS [NuttX](https://github.com/jodersky/px4-nuttx) (porting fork) | ![wip](https://img.shields.io/badge/progress-wip-orange.svg)
 Virtual cockpit [VFD](https://github.com/jodersky/vfd) | ![milestone](https://img.shields.io/badge/progress-milestone-green.svg)
 MAVLink-to-Scala code generation [SBT-MAVLink](https://github.com/jodersky/sbt-mavlink) | ![alpha](https://img.shields.io/badge/progress-alpha-brightgreen.svg)
 Joystick remote control substitute [maverick](https://github.com/jodersky/maverick) | ![alpha](https://img.shields.io/badge/progress-alpha-brightgreen.svg)
