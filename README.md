@@ -26,7 +26,7 @@ Progress badges indicate the current state of usability of the project
 
 - ![alpha](https://img.shields.io/badge/progress-alpha-brightgreen.svg): most features available
 - ![milestone](https://img.shields.io/badge/progress-milestone-green.svg): some functionality available
-- ![wip](https://img.shields.io/badge/progress-wip-orange.svg): not functional
+- ![wip](https://img.shields.io/badge/progress-wip-orange.svg): work-in-progress, currently minimal functionality
 
 ## Other pojects of interest
  - Communication protocol [MAVLink](https://github.com/mavlink/mavlink)
