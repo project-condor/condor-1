@@ -1,7 +1,7 @@
 include <../conf.scad>
 
 module rack_plate() {
-color("black")
+color("gray")
 difference() {
 	cube([rack_width, rack_width, rack_plate_height], center=true);
 	for (i=[0:3]) {
